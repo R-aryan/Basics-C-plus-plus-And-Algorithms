@@ -26,8 +26,8 @@ def check_anagram(first_string,second_string):
 
 
 
-s1= input("Enter first string \n")
-s2= input("Enter second string \n")
+s1= (input("Enter first string \n")).lower()
+s2= (input("Enter second string \n")).lower()
 
 if check_anagram(s1,s2):
     print('True')
