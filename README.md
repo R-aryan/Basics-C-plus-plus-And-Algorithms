@@ -1,4 +1,4 @@
-# Basics-functionalities-of-c++
+# Basic Data Structures And Algorithms
 
 This repository consists of implemenation of some basic data structures and algorithms in **C++** and also some frquently asked problems in interviews on these topics.
 
