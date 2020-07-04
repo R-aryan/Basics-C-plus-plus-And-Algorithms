@@ -24,5 +24,8 @@ class Stacks():
 #creating object of stack
 s=Stacks()
 s.push(10)
-s.push(23)      
-        
+s.push(23)
+s.push(100)
+s.push(230)
+
+s.pop()
