@@ -28,4 +28,4 @@ s.push(23)
 s.push(100)
 s.push(230)
 
-s.pop()
+print(s.pop())
