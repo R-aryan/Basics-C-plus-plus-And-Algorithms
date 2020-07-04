@@ -1,4 +1,4 @@
-class Queue():
+class Queue(object):
     def __init__(self):
         self.items=[]
 
@@ -14,5 +14,14 @@ class Queue():
     def size(self):
         return len(self.items)
     
-    
+q= Queue()
+
+q.enqueue(100)
+q.enqueue(200)
+q.enqueue(89)
+q.enqueue(23)
+
+print(q.isEmpty())
+print(q.dequeue())
+print(q.size())
         
