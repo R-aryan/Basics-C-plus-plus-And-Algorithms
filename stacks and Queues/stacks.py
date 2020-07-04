@@ -14,6 +14,15 @@ class Stacks():
         return len(self.items)
     
     def peek(self):
+        return self.items[len(self.items)-1]
+    
+    def pop(self):
+        self.items.pop()
         
-        
+
+
+#creating object of stack
+s=Stacks()
+s.push(10)
+s.push(23)      
         
