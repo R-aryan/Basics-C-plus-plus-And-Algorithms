@@ -17,7 +17,7 @@ class Stacks():
         return self.items[len(self.items)-1]
     
     def pop(self):
-        self.items.pop()
+       return self.items.pop()
         
 
 

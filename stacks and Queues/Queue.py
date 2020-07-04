@@ -5,6 +5,7 @@ class Queues(object):
 
     def enqueue(self,item):
         self.items.insert(0,item)
+        print("Inserted successfully")
     
     def dequeue(self):
         return self.items.pop()
